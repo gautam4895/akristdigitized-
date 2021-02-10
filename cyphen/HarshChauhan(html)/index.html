@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+<style>
+    body {
+        background: url("india-1748445_1920(copy).jpg");
+        font-family: 'Nova Round', cursive;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 8px;
+        top: 8px;
+    }
+
+    .left img {
+        width: 200px;
+    }
+
+    .right :visited {
+        color: rgb(0, 0, 0);
+    }
+
+    .right :hover {
+        color: rgb(179 179 179);
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        text-decoration: none;
+    }
+
+    .mid {
+        background-color: #dbccb9;
+        display:block;
+        width: 61%;
+        margin: 0px auto;
+
+    }
+
+    .btn {
+        font-family: 'Nova Round', cursive;
+        background-color: #dbccb9;
+        color: #060606;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        border-color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    .btn a {
+        text-decoration: none;
+    }
+
+    .nav li {
+        display: inline-block;
+        padding: 0px;
+        font-size: 25px;
+        padding: 0px 28px;
+        cursor: pointer;
+    }
+
+    .nav li:hover,
+    .nav li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .content {
+        display: inline-block;
+        position: absolute;
+        padding: 34px 28px;
+        padding-top: 0px;
+        margin: 22px;
+        margin-top: 12px;
+        background-color: rgb(84 82 82);
+        width: 276px;
+        color: white;
+        border-radius: 20px;
+        border: 10px solid rgb(179 179 179);
+        font-size: 18px;
+
+    }
+
+    h2 {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Incredible-India-Color.png" alt="No">
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a class="active">Visit</a></li>
+                <li>Home</li>
+                <li>Gallery</li>
+                <li>Wonders</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"><a target="_blank">Log in</a></button>
+            <button class="btn"><a href="https://www.treebo.com/blog/states-in-india/"
+                    target="_blank">States</a></button>
+        </div>
+    </header>
+    <div class="content">
+        <h2>Visit India</h2>
+
+        <form action="backend.php">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="myname" id="name" placeholder="xyz">
+            </div>
+            <br>
+            <div>
+                <label for="DOA">Arrival</label>
+                <input type="date" name="Dob" id="DOA">
+            </div>
+            <br>
+            <div>
+                <label for="DOD">Departure</label>
+                <input type="date" name="Dob" id="DOD">
+            </div>
+            <br>
+            <div>
+                <label for="Age">Age</label>
+                <input type="number" name="age" id="Age" placeholder="18">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="number" name="mynumber" id="phone" placeholder="+910000000000">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="myemail" id="email" placeholder="xyz@example.com">
+            </div>
+            <br>
+            <div>
+                <label for="rad">Male</label>
+                <input type="radio" name="my gender" id="rad">
+                <label for="rad1">Female</label>
+                <input type="radio" name="my gender" id="rad1">
+                <label for="rad2">Others</label>
+                <input type="radio" name="my gender" id="rad2">
+            </div>
+            <br>
+            <div>
+                <label for="places">Destination</label>
+                <select name="places" id="places">
+                    <option value="koc">Kochi</option>
+                    <option value="var">Varanasi</option>
+                    <option value="Jai">Jaipur</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="eb">I Conform !</label>
+                <input type="checkbox" name="myeligi" id="eb">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -14,7 +14,6 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -880,7 +879,7 @@ section {
   position: relative;
   z-index: 1;
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
-  /* height: ; */
+  height: 480px;
 }
 
 .testimonials .owl-nav, .testimonials .owl-dots {
