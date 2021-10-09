@@ -29,7 +29,7 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/test.css" rel="stylesheet">
+    <!-- <link href="assets/css/test.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="slider.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
  
@@ -59,7 +59,7 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 325px;
+  width: 320px;
   background-color: #fff;
   overflow: hidden;
   border-radius: 8px;
@@ -866,129 +866,11 @@ span {
             </div>
         </section><!-- End Testimonials Section -->
         <!-- our clients -->
-        <section >
-
-
+        <section>
             <div class="section-title testimonials section-bg">
                 <h2>Our Client</h2>
             </div>
-            <section id="client-slider" class="my-5">
-              <div class="row">
-                <div class="col-sm-12">
-                  <h1 class="text-center">Our Clients</h1>
-                </div>
-                <div class="col-sm-12">
-                  <h5 class="text-center">These are our happy clients who trusts us.</h5>
-                </div>
-              </div>
-              <div class="container mt-3">
-                <div class="row owl-carousel">
-                  <div class="card">
-                    <div class="card-img-top text-center px-5 mt-3">
-                      <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">CWCCI</h5>
-                      <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="card">
-                    <div class="card-img-top text-center px-5 mt-3">
-                      <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">CWCCI</h5>
-                      <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="card">
-                    <div class="card-img-top text-center px-5 mt-3">
-                      <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">CWCCI</h5>
-                      <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="card">
-                    <div class="card-img-top text-center px-5 mt-3">
-                      <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">CWCCI</h5>
-                      <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="card">
-                    <div class="card-img-top text-center px-5 mt-3">
-                      <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">CWCCI</h5>
-                      <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="card">
-                    <div class="card-img-top text-center px-5 mt-3">
-                      <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">CWCCI</h5>
-                      <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
-                    </div>
-                  </div>
-                  
-                  <div class="card">
-                    <div class="card-img-top text-center px-5 mt-3">
-                      <img src="https://cwcci-front-obuxim.c9users.io/img/rsz_cwcci-logo.png" class="img-fluid">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title text-center">CWCCI</h5>
-                      <p class="card-text text-center">Yes! You guessed right. We did it beautiful.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <Script>
-              $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:50,
-    autoplay: true,
-    autoplayTimeout: 5000,
-    slideTransition: 'linear',
-    autoplaySpeed: 5000,
-    autoplayHoverPause: false,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:false
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:3,
-            nav:true,
-        }
-    }
-})
-
-document.getElementsByClassName('owl-prev')[0].innerHTML = '<i class="fas fa-4x fa-caret-left"></i>'
-
-document.getElementsByClassName('owl-next')[0].innerHTML = '<i class="fas fa-4x fa-caret-right"></i>'
-            </Script>
-
-
-            <!-- <div data-aos="fade-up">
+            <div data-aos="fade-up">
 
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
@@ -1080,7 +962,7 @@ document.getElementsByClassName('owl-next')[0].innerHTML = '<i class="fas fa-4x 
 
                 </div>
 
-            </div> -->
+            </div>
 
 
 

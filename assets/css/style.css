@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #8577fb;
+  color: #FB505B;
   text-decoration: none;
 }
 
@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
     scroll-behavior: auto;
   }
 }
+
+#clinlogo{
+      text-align: center;
+ }
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -84,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid ##FB505B;;
+  border: 6px solid #FB505B;;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -1632,7 +1636,7 @@ section {
 }
 
 #footer .copyright-wrap {
-  border-top: 1px solid #8577fb;
+  border-top: 1px solid #ffffff;
 }
 
 #footer .credits {
