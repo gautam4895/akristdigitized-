@@ -2,8 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from www.akristdigitized.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Oct 2021 00:12:38 GMT -->
-
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -26,10 +24,10 @@
     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <!-- <link href="assets/vendor/venobox/venobox.css" rel="stylesheet"> -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <!-- <link href="assets/css/test.css" rel="stylesheet"> -->
+    <link href="assets/css/test.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="slider.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
  
@@ -46,6 +44,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.js" integrity="sha512-TEY9MppoX49BydDCCSsdqDUihEAEdO2S2En3WRjPoM+4wBkLtE7HKJ/Xt34c46/XM0Qxf6+F5caDMejengSDdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.css" integrity="sha512-CtogFo96PLW8q41ZASdAJPNIpkUPABsqVRjgAKfwtTPoi+TKV8GswIJMUL6CFGrzEHFrJpdPr7mAHp5UQ6cvbg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.esm.browser.js" integrity="sha512-3M/NR+ddTtYtxbZc4n7WGrWW1wA2IT3vR66aUhSAH4av+zH4b4Rgxe5JUkAlY7S8RZ8JmQGxo4hu4d5XL/mh8Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    
   <style>
 
 
@@ -59,7 +60,7 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 320px;
+  width: 325px;
   background-color: #fff;
   overflow: hidden;
   border-radius: 8px;
@@ -142,7 +143,12 @@ span {
 
 
 
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="slider.css">
+<script src="slider.js"></script>
 </head>
 
 <body>
@@ -671,7 +677,7 @@ span {
     centeredSlides: true,
     slidesPerView: "auto",
     coverflowEffect: {
-      rotate: 20,
+      rotate: 10,
       stretch: 0,
       depth: 350,
       modifier: 1,
@@ -866,113 +872,38 @@ span {
             </div>
         </section><!-- End Testimonials Section -->
         <!-- our clients -->
-        <section>
+        <section >
+
+
             <div class="section-title testimonials section-bg">
                 <h2>Our Client</h2>
             </div>
-            <div data-aos="fade-up">
-
-                <div class="owl-carousel testimonials-carousel">
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/2.png" alt="client logo" width="200" height="300">
-                    </div>
-                    <div class="testimonial-item">
-
-                        <img src="assets/img/clintes/3.png" alt="client logo" width="250" height="300">
-                    </div>
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/4.png" alt="client logo" width="200" height="300">
-                    </div>
-                    <div class="testimonial-item">
-                        <img class="" src="assets/img/clintes/1.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/5.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-
-                        <img src="assets/img/clintes/6.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/7.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/8.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/9.png" alt="client logo" width="200" height="300">
-                    </div>
-
-
-
-
-
-
-
-
-
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/01.png" alt="client logo" width="200" height="300">
-                    </div>
-                    <div class="testimonial-item">
-
-                        <img src="assets/img/clintes/02.png" alt="client logo" width="250" height="300">
-                    </div>
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/03.png" alt="client logo" width="200" height="300">
-                    </div>
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/04.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/05.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-
-                        <img src="assets/img/clintes/06.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/07.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/08.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/09.png" alt="client logo" width="200" height="300">
-                    </div>
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/10.png" alt="client logo" width="200" height="300">
-                    </div>
-
-                    <div class="testimonial-item">
-                        <img src="assets/img/clintes/11.png" alt="client logo" width="200" height="300">
-                    </div>
-
-
-                </div>
-
+               <section class="customer-logos slider">
+                  <div class="slide"><img src="assets/img/clintes/01.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/02.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/03.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/04.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/05.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/06.png"></div>
+           
+                  <div class="slide"><img src="assets/img/clintes/08.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/09.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/1.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/2.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/3.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/4.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/5.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/6.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/7.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/8.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/9.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/10.png"></div>
+                  <div class="slide"><img src="assets/img/clintes/11.png"></div>
+                 
+            
+               </section>
             </div>
-
-
-
-
-
-
-
-
-
-        </section>
+         </section>
 
         <!--end our clients -->
         <!-- ======= Contact Section ======= -->
@@ -1152,7 +1083,7 @@ span {
         $('.carousel').carousel();
     });
     </script>
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="assets/vendor/jquery/jquery.min.js"></script> -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -1160,7 +1091,7 @@ span {
     <script src="assets/vendor/counterup/counterup.min.js"></script>
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <!-- <script src="assets/vendor/venobox/venobox.min.js"></script> -->
     <script src="assets/vendor/aos/aos.js"></script>
 
     <script src="assets/js/main.js"></script>
