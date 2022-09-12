@@ -205,7 +205,7 @@ span {
         $subject = "Thanks for Visiting - Akrist Digitized";
         $message = "Thanks for Visiting Akrist Digitized. You'll always receive updates from us. And we won't share and sell your information. Brochure link 
         https://www.akristdigitized.in/Akrist%20Digitized%20Services.pdf";
-        $sender = "From: gautam1995000@gmail.com";
+        $sender = "From: anishprashun118@gmail.com";
         //php function to send mail
         if(mail($userEmail, $subject, $message, $sender)){
           ?>
